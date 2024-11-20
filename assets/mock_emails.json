@@ -1,0 +1,86 @@
+[
+    {
+        "id": 6,
+        "sender": "security-alert@paypal-secure.com",
+        "subject": "Unusual Activity Detected in Your PayPal Account",
+        "timestamp": "2024-11-20 09:15",
+        "content": "Dear User, we noticed unusual activity in your PayPal account. Please verify your identity immediately to avoid account suspension. <a href='https://secure-paypal-login.com' target='_blank'>Click here to verify</a>."
+    },
+    {
+        "id": 7,
+        "sender": "microsoft-support@secure.com",
+        "subject": "Your Microsoft Account Will Be Locked",
+        "timestamp": "2024-11-20 08:30",
+        "content": "We detected several failed login attempts to your Microsoft account. Verify your account now to prevent it from being locked. <a href='https://microsoft-support-login.com' target='_blank'>Verify Now</a>."
+    },
+    {
+        "id": 8,
+        "sender": "lottery@winning-notice.com",
+        "subject": "Congratulations! You've Won $1,000,000!",
+        "timestamp": "2024-11-19 22:00",
+        "content": "Congratulashun! You are the lucky winner of our $1,000,000 lottery prize. To claim your reward, please provide your bank account details and a copy of your ID. <a href='https://claim-prize-now.com' target='_blank'>Claim Now</a>."
+    },
+    {
+        "id": 9,
+        "sender": "noreply@amazon-secure.com",
+        "subject": "Your Amazon Account Has Been Suspended",
+        "timestamp": "2024-11-19 18:45",
+        "content": "Dear Customer, your Amazon account has been temporarily suspended due to suspicious activity. Please log in to verify your account details. <a href='https://secure-amazon-login.com' target='_blank'>Verify Account</a>."
+    },
+    {
+        "id": 10,
+        "sender": "hr@yourcompany-support.com",
+        "subject": "Mandatory Password Update Required",
+        "timestamp": "2024-11-19 14:15",
+        "content": "Attention! As part of our regular security protocol, all employees are required to update their passwords immediately. <a href='https://company-password-update.com' target='_blank'>Update Password</a>."
+    },
+    {
+        "id": 11,
+        "sender": "bank-alert@secure-onlinebanking.com",
+        "subject": "Urgent: Your Account Is Compromised",
+        "timestamp": "2024-11-19 12:45",
+        "content": "Dear Customer, we detected unauthorized access to your online banking account. Please confirm your identity to secure your account. <a href='https://secure-onlinebanking-login.com' target='_blank'>Secure Account</a>."
+    },
+    {
+        "id": 12,
+        "sender": "support@it-admin.com",
+        "subject": "Important: Company Email Verification",
+        "timestamp": "2024-11-19 11:30",
+        "content": "IT Admin requires you to verify your email for ongoing system updates. Failure to verify may result in loss of access. <a href='https://it-admin-email-verification.com' target='_blank'>Verify Email</a>."
+    },
+    {
+        "id": 13,
+        "sender": "giveaway@freegiftcards.com",
+        "subject": "You’ve Been Selected for a Free Gift Card!",
+        "timestamp": "2024-11-18 20:15",
+        "content": "Congratulations! You’ve been selected to receive a free $500 gift card. Just click below to claim your reward! <a href='https://free-giftcards-now.com' target='_blank'>Claim Gift Card</a>."
+    },
+    {
+        "id": 14,
+        "sender": "admin@webhost-support.com",
+        "subject": "Your Website Hosting Will Be Suspended",
+        "timestamp": "2024-11-18 18:00",
+        "content": "Dear Customer, your web hosting plan is overdue for renewal. Renew now to avoid service disruption. <a href='https://webhost-renewal.com' target='_blank'>Renew Now</a>."
+    },
+    {
+        "id": 15,
+        "sender": "helpdesk@it-support.com",
+        "subject": "Urgent: Email Quota Exceeded",
+        "timestamp": "2024-11-18 10:45",
+        "content": "Your email account has exceeded its quota limit. Please increase your storage by verifying your account now. <a href='https://email-quota-upgrade.com' target='_blank'>Increase Quota</a>."
+    },
+    {
+        "id": 16,
+        "sender": "verify@account-security.com",
+        "subject": "Action Required: Confirm Your Identity",
+        "timestamp": "2024-11-17 22:10",
+        "content": "Dear User, we noticed irregularities in your account. Confirm your identity to restore access. <a href='https://account-security-verify.com' target='_blank'>Confirm Identity</a>."
+    },
+    {
+        "id": 17,
+        "sender": "offer@crypto-investment.com",
+        "subject": "Exclusive Crypto Investment Opportunity!",
+        "timestamp": "2024-11-17 08:45",
+        "content": "Invest in the future of cryptocurrency with our exclusive offer. Earn up to 300% returns in just 7 days! <a href='https://crypto-investment-offer.com' target='_blank'>Start Now</a>."
+    }
+]

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outlook Lite</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script>
+        // E-Mails werden direkt vom Backend ins Template eingebettet
+        const emails = {{ emails|tojson }};
+    </script>
+    <script src="{{ url_for('static', filename='js/app.js') }}" defer></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- E-Mail-Liste (linke Spalte) -->
+        <div class="sidebar">
+            <h2>Posteingang</h2>
+            <ul id="email-list">
+                <!-- Liste wird von JavaScript generiert -->
+            </ul>
+        </div>
+
+        <!-- Detailansicht (rechte Spalte) -->
+        <div class="main">
+            <div id="email-detail">
+                <h2>E-Mail öffnen</h2>
+                <p>Wähle eine E-Mail aus, um ihren Inhalt anzuzeigen.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
