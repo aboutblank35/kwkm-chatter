@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "topic": "mails",
+        "text": "Emails that demand immediate action such as a data update are suspicious."
+    },
+    {
+        "id": 2,
+        "topic": "mails",
+        "text": "Threats such as ‘Your account will be blocked’ often indicate phishing."
+    },
+    {
+        "id": 3,
+        "topic": "mails",
+        "text": "Reputable companies never ask for sensitive data such as PINs or TANs by email."
+    },
+    {
+        "id": 4,
+        "topic": "mails",
+        "text": "Be suspicious of emails that contain links or forms to request data."
+    },
+    {
+        "id": 5,
+        "topic": "mails",
+        "text": "If an email comes from a known person or organisation but the request is unusual, check its authenticity."
+    },
+    {
+        "id": 6,
+        "topic": "mails",
+        "text": "Check the sender: the visible address often conceals a different, incorrect e-mail address."
+    },
+    {
+        "id": 7,
+        "topic": "mails",
+        "text": "Even if the language appears professional, you should scrutinise and critically check the content."
+    },
+    {
+        "id": 8,
+        "topic": "website",
+        "text": "URLs with unusual numbers or character combinations such as ‘www.135x-Bank.de’ are suspicious."
+    },
+    {
+        "id": 9,
+        "topic": "website",
+        "text": "The abbreviation ‘https://’ alone does not guarantee a secure or trustworthy website."
+    },
+    {
+        "id": 10,
+        "topic": "website",
+        "text": "If known data such as name, address or IBAN are requested again, it is usually a fake website."
+    },
+    {
+        "id": 11,
+        "topic": "website",
+        "text": "If a TAN is requested for no reason, you should question this immediately."
+    },
+    {
+        "id": 12,
+        "topic": "general",
+        "text": "Check every link in e-mails carefully before you click on it."
+    },
+    {
+        "id": 13,
+        "topic": "general",
+        "text": "Scrutinise e-mails and senders, especially in the case of unusual requests or prompts."
+    },
+    {
+        "id": 14,
+        "topic": "general",
+        "text": "Check login pages critically before entering confidential data."
+    },
+    {
+        "id": 15,
+        "topic": "general",
+        "text": "Inform the IT department if an e-mail seems suspicious."
+    }
+]
