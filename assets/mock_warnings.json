@@ -1,0 +1,14 @@
+[
+    {
+        "email_id": 6,
+        "warning": "This email contains a suspicious link to a fake PayPal website."
+    },
+    {
+        "email_id": 8,
+        "warning": "Lottery winnings are often used in phishing scams. Do not provide personal information."
+    },
+    {
+        "email_id": 11,
+        "warning": "This email claims your bank account is compromised. Be cautious and verify with your bank."
+    }
+]

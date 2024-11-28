@@ -6,7 +6,6 @@
     <title>Outlook Lite</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
     <script>
-        // E-Mails werden direkt vom Backend ins Template eingebettet
         const emails = {{ emails|tojson }};
     </script>
     <script src="{{ url_for('static', filename='js/app.js') }}" defer></script>
@@ -24,8 +23,8 @@
         <!-- Detailansicht (rechte Spalte) -->
         <div class="main">
             <div id="email-detail">
-                <h2>E-Mail öffnen</h2>
-                <p>Wähle eine E-Mail aus, um ihren Inhalt anzuzeigen.</p>
+                <h2>Open Mail</h2>
+                <p>Choose mail to open</p>
             </div>
         </div>
     </div>

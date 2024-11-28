@@ -112,19 +112,14 @@ body {
     margin: 20px 0;
 }
 
-/* Mobilansicht */
-@media (max-width: 768px) {
-    .app-container {
-        flex-direction: column;
-    }
-
-    .sidebar {
-        width: 100%;
-        border-right: none;
-        border-bottom: 1px solid #dcdcdc;
-    }
-
-    .main {
-        padding: 10px;
-    }
+/* Styling für Warnungen */
+.email-warning {
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
