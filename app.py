@@ -1,12 +1,19 @@
 import json
+
 from flask import Flask, jsonify, render_template
 
 app = Flask(__name__)
 
-# E-Mails aus JSON-Datei laden
+
 def load_mock_emails():
     with open("./assets/mock_emails.json", "r", encoding="utf-8") as file:
         return json.load(file)
+
+
+def load_mock_warnings():
+    with open("./assets/mock_warnings.json", "r", encoding="utf-8") as file:
+        return json.load(file)
+
 
 @app.route("/api/emails")
 def get_emails():
@@ -14,8 +21,13 @@ def get_emails():
     return jsonify(emails)
 
 
+@app.route("/api/warnings")
+def get_warnings():
+    return jsonify(load_mock_warnings())
+
+
 @app.route("/")
 def index():
-    # Mock-Daten laden und ins Template übergeben
     emails = load_mock_emails()
-    return render_template("outlook.html", emails=emails)
+    warnings = load_mock_warnings()
+    return render_template("outlook.html", emails=emails, warnings=warnings)
