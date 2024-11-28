@@ -41,12 +41,12 @@ function showEmail(email) {
     const detailView = document.getElementById("email-detail");
 
     // Finde die zugehörige Warnung über die ID
-    const emailWarning = warnings.find(warning => warning.email_id === email.id);
+    const emailWarning = warnings.find(warning => warning.id === email.id);
 
     detailView.innerHTML = `
         ${emailWarning ? `
         <div class="email-warning">
-            <p>${emailWarning.warning}</p>
+            <p>${emailWarning.text}</p>
         </div>` : ''}
         <h2>${email.subject}</h2>
         <p><strong>From:</strong> ${email.sender}</p>
