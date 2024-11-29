@@ -2,3 +2,6 @@ __pycache__/
 .idea/
 .venv/
 .env
+# Data directories
+/chroma/
+/data/

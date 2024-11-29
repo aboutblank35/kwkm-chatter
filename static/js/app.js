@@ -56,4 +56,61 @@ function showEmail(email) {
     `;
 }
 
+async function sendMessage() {
+    const userInput = document.getElementById("user-input").value;
+    if (!userInput) return;
+
+    // Zeige die Nutzer-Nachricht im Chat an
+    const messages = document.getElementById("messages");
+    const userMessage = document.createElement("div");
+    userMessage.className = "message user";
+    userMessage.textContent = userInput;
+    messages.appendChild(userMessage);
+    messages.scrollTop = messages.scrollHeight;
+
+    // Eingabe leeren
+    document.getElementById("user-input").value = "";
+
+    try {
+        // API-Aufruf
+        const response = await fetch("/api/chat", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ question: userInput })
+        });
+
+        const data = await response.json();
+
+        // Antwort anzeigen
+        if (data.response) {
+            const botMessage = document.createElement("div");
+            botMessage.className = "message bot";
+            botMessage.textContent = data.response.response; // Zeige die Antwort
+            console.log(data.response)
+            messages.appendChild(botMessage);
+
+            // Quellen anzeigen (optional)
+            if (data.response.sources && data.response.sources.length > 0) {
+                const sourceMessage = document.createElement("div");
+                sourceMessage.className = "message bot";
+                sourceMessage.textContent = `Sources: ${data.response.sources.join(", ")}`;
+                sourceMessage.style.fontSize = "0.8em";
+                sourceMessage.style.color = "gray";
+                messages.appendChild(sourceMessage);
+            }
+        } else {
+            throw new Error("Invalid response format");
+        }
+    } catch (error) {
+        console.error("Error:", error);
+        const errorMessage = document.createElement("div");
+        errorMessage.className = "message bot";
+        errorMessage.textContent = "Error: Unable to fetch response.";
+        messages.appendChild(errorMessage);
+        messages.scrollTop = messages.scrollHeight;
+    }
+}
+
+
+
 loadEmails();
