@@ -1,5 +1,12 @@
 [
     {
+        "id": 5,
+        "sender": "jens.ritter@fischer.com",
+        "subject": "Urgent payment order - Confidential",
+        "timestamp": "2024-11-21 16:15",
+        "content": "<p>Hello Jonas, <br> I hope you are well. We have a confidential project that needs to be completed urgently and I am relying on your discretion. Please transfer the sum of EUR 8,750 to the following business partner: </p> <p> Recipient: M. Krause Consulting GmbH<br> IBAN: DE89370400440532013000<br> Bank: Sparkasse München</p> <p> This is extremely time-critical, so I need confirmation of the transfer by 14:00 today. Please contact me directly if you have any questions. Confidentiality is crucial here. Please do not discuss this with other colleagues. </p> <p> Many thanks in advance. <br> Jens Ritter<br> Managing Director</p> "
+    },
+    {
         "id": 6,
         "sender": "security-alert@paypal-secure.com",
         "subject": "Unusual Activity Detected in Your PayPal Account",
