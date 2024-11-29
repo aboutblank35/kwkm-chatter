@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Outlook Lite</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome für Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="..." crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
     <script>
         const emails = {{ emails|tojson }};
@@ -11,22 +15,58 @@
     <script src="{{ url_for('static', filename='js/app.js') }}" defer></script>
 </head>
 <body>
+    <!-- Kopfzeile -->
+    <header>
+        <div class="logo">
+            <i class="fas fa-envelope"></i>
+            <h1>trust Mail</h1>
+        </div>
+        <div class="user-profile">
+            <i class="fas fa-user-circle"></i>
+        </div>
+    </header>
+
     <div class="app-container">
         <!-- E-Mail-Liste (linke Spalte) -->
         <div class="sidebar">
-            <h2>Posteingang</h2>
+            <h2><i class="fas fa-inbox"></i> Inbox</h2>
             <ul id="email-list">
                 <!-- Liste wird von JavaScript generiert -->
             </ul>
         </div>
 
-        <!-- Detailansicht (rechte Spalte) -->
+        <!-- Hauptbereich: E-Mail-Details und Chat -->
         <div class="main">
             <div id="email-detail">
+                <!-- Warnung mit gelbem Hintergrund -->
+                <div class="email-warning" id="email-warning" style="display: none;">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <!-- Warnungstext wird von JavaScript eingefügt -->
+                </div>
                 <h2>Open Mail</h2>
-                <p>Choose mail to open</p>
+                <p>Choose a Mail</p>
+            </div>
+
+            <!-- Button zum Ein-/Ausklappen des Chats -->
+            <button id="chat-toggle-button"><i class="fas fa-comments"></i> Show Chat</button>
+            <div id="chat-container" class="collapsed">
+                <h3><i class="fas fa-robot"></i> Chatbot</h3>
+                <div id="messages"></div>
+                <div id="input-container">
+                    <input type="text" id="user-input" placeholder="Ask me anything!..." />
+                    <button onclick="sendMessage()"><i class="fas fa-paper-plane"></i></button>
+                </div>
             </div>
         </div>
     </div>
+
+    <!-- JavaScript für Chat-Einklappen -->
+    <script>
+        document.getElementById('chat-toggle-button').addEventListener('click', function() {
+            const chatContainer = document.getElementById('chat-container');
+            chatContainer.classList.toggle('collapsed');
+            this.innerHTML = chatContainer.classList.contains('collapsed') ? '<i class="fas fa-comments"></i> Show Chat' : '<i class="fas fa-comments"></i> Hide Chat';
+        });
+    </script>
 </body>
 </html>
