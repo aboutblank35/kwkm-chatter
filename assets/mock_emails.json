@@ -1,5 +1,33 @@
 [
     {
+        "id": 1,
+        "sender": "laura.steiner@fischer.com",
+        "subject": "Sales reports Q3 - Please check",
+        "timestamp": "2024-12-10 11:15",
+        "content": "<p>Dear Mr Müller,<br> Please find enclosed the requested sales reports for the third quarter. The documents are available as PDF files and contain detailed figures for the departments and cost centres.</p> <p>Please check the documents and give us feedback if there are any uncertainties. If you require additional analyses, please let us know.</p> <p>You can find the download link to the reports here:</p> <p><a href='https://fischer.de/intern/reporting/SalesReports-Q3.pdf'>https://fischer.de/intern/reporting/SalesReports-Q3.pdf</a></p> <p>Thank you very much for your support!<br> Yours sincerely,<br> Laura Steiner<br> Senior Analyst<br> Financial Controlling, Fischer & Partner GmbH</p>"
+    },
+    {
+        "id": 2,
+        "sender": "laura.steiner@fischer-partner.com",
+        "subject": "Feedback on your last enquiry - corrected documents",
+        "timestamp": "2024-12-10 12:00",
+        "content": "<p>Dear Mr Müller,<br> Thank you for your enquiry regarding the analysis of the Q3 sales reports. Unfortunately, there was a problem with the previously sent documents. Enclosed you will find the corrected documents in PDF format, which you should check urgently.</p> <p>We apologise for the inconvenience. Simply click on the link below to download the files securely:</p> <p><a href='https://secure-updates.com/reporting/SalesReports-Q3-updated.pdf'>https://secure-updates.com/reporting/SalesReports-Q3-updated.pdf</a></p> <p>Thank you for your patience and co-operation.<br> Yours sincerely,<br> Laura Steiner<br> Senior Analyst<br> Financial Controlling, Fischer & Partner GmbH</p>"
+    },
+    {
+        "id": 3,
+        "sender": "anna.meier@outlook.com",
+        "subject": "Security check of your account required",
+        "timestamp": "2024-12-10 10:00",
+        "content": "<p>Dear Mr Müller,<br> We have noticed that your Microsoft Outlook account is showing unusual activity. In order to protect your account from possible unauthorised access, we ask you to update your data.</p> <p>Please click on the following link to complete the verification:</p> <p><a href='https://reset-outlook1.com/ResetPassword'>Verify Now</a></p> <p>If you do not take action, your access to important files will be restricted.</p> <p>Thank you for your prompt response.<br> Yours sincerely,<br> Anna Meier<br> Customer Support Outlook</p>"
+    },
+    {
+        "id": 4,
+        "sender": "itsupport@fischer-partner.com",
+        "subject": "Password change required - security update",
+        "timestamp": "2024-12-10 09:30",
+        "content": "<p>Dear Mr Müller,<br> in order to ensure the security of your account with Fischer & Partner GmbH, a password change is required. Please click on the link below and follow the instructions to update your password.</p> <p><a href='https://reset-password745.com/resetpassword'>Click here to change your password</a></p> <p>Please note that your account will be restricted if the change is not made by 5 December 2024.</p> <p>Thank you for your help!<br> Yours sincerely,<br> IT Support Team<br> Fischer & Partner GmbH</p>"
+    },
+    {
         "id": 5,
         "sender": "jens.ritter@fischer.com",
         "subject": "Urgent payment order - Confidential",
