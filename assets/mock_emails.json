@@ -1,22 +1,14 @@
 [
     {
         "id": 1,
-        "sender": "laura.steiner@fischer.com",
-        "subject": "Sales reports Q3 - Please check",
-        "timestamp": "2024-12-10 11:15",
-        "content": "<p>Dear Mr Müller,<br> Please find enclosed the requested sales reports for the third quarter. The documents are available as PDF files and contain detailed figures for the departments and cost centres.</p> <p>Please check the documents and give us feedback if there are any uncertainties. If you require additional analyses, please let us know.</p> <p>You can find the reports here:</p> <p>F:/shared/report</p> <p>Thank you very much for your support!<br> Yours sincerely,<br> Laura Steiner<br> Senior Analyst<br> Financial Controlling, Fischer & Partner GmbH</p>",
+        "sender": "klaus.fischer@fischer.com",
+        "subject": "New Employee Announcement",
+        "timestamp": "2024-12-10 18:00",
+        "content": "<p>Dear Team,<br><br> I am pleased to introduce Anna Hoffmann, who has joined Fischer & Partner GmbH as a Junior Controller. Anna brings a wealth of enthusiasm and fresh ideas to our team. She has a background in finance and recently graduated with honors from the University of Mannheim.</p> <p>Anna will be supporting various projects within the controlling department, so you will likely collaborate with her on a regular basis. Please make her feel welcome and assist her as she settles in.</p> <p>Let’s all give Anna a warm Fischer & Partner welcome!<br><br> Klaus Fischer<br> Managing Director<br> Financial Controlling, Fischer & Partner GmbH</p>",
         "phishing": "No"
     },
     {
         "id": 2,
-        "sender": "laura.steiner@fischer-partner.com",
-        "subject": "Feedback on your last enquiry - corrected documents",
-        "timestamp": "2024-12-10 12:00",
-        "content": "<p>Dear Mr Müller,<br> Thank you for your enquiry regarding the analysis of the Q3 sales reports. Unfortunately, there was a problem with the previously sent documents. Enclosed you will find the corrected documents in PDF format, which you should check urgently.</p> <p>We apologise for the inconvenience. Simply click on the link below to download the files securely:</p> <p><a href='https://secure-updates.com/reporting/SalesReports-Q3-updated.pdf'>https://secure-updates.com/reporting/SalesReports-Q3-updated.pdf</a></p> <p>Thank you for your patience and co-operation.<br> Yours sincerely,<br> Laura Steiner<br> Senior Analyst<br> Financial Controlling, Fischer & Partner GmbH</p>",
-        "phishing": "Yes"
-    },
-    {
-        "id": 3,
         "sender": "anna.meier@outlook.com",
         "subject": "Security check of your account required",
         "timestamp": "2024-12-10 10:00",
@@ -24,7 +16,39 @@
         "phishing": "Yes"
     },
     {
+        "id": 3,
+        "sender": "hr.system@fischer.com",
+        "subject": "Leave Request Approved",
+        "timestamp": "2024-12-10 17:30",
+        "content": "<p>Dear Jonas,<br><br> Your leave request for December 20–22 has been approved. Please make sure any pending tasks are delegated or completed before your time off. If there are any urgent matters that require your attention during this period, inform your team lead in advance.</p> <p>Kind regards,<br> HR System Notification<br> Financial Controlling, Fischer & Partner GmbH</p>",
+        "phishing": "No"
+    },
+    {
+        "id": 5,
+        "sender": "julia.koch@fischer.com",
+        "subject": "Training Session: New Budgeting Tool",
+        "timestamp": "2024-12-10 15:30",
+        "content": "<p>Dear Jonas,<br><br> You are invited to attend a training session on the new budgeting tool we are rolling out company-wide. It will cover key features such as automated reporting, data visualization, and integration with existing tools. The session will be interactive, with live demonstrations and a Q&amp;A session to address specific needs.</p> <p><strong>Date:</strong> Friday<br><strong>Time:</strong> 1 PM to 3 PM<br><strong>Location:</strong> Main Conference Room</p> <p>Please confirm your attendance by replying to this email by Wednesday. Your feedback during the session will help us tailor future training to better suit our needs.</p> <p>Looking forward to seeing you there!<br><br> Julia Koch<br> HR Specialist<br> Financial Controlling, Fischer & Partner GmbH</p>",
+        "phishing": "No"
+    },
+    {
         "id": 4,
+        "sender": "offer@crypto-investment.com",
+        "subject": "Exclusive Crypto Investment Opportunity!",
+        "timestamp": "2024-11-17 08:45",
+        "content": "Invest in the future of cryptocurrency with our exclusive offer. Earn up to 300% returns in just 7 days! <a href='https://crypto-investment-offer.com' target='_blank'>Start Now</a>.",
+        "phishing": "Yes"
+    },
+    {
+        "id": 6,
+        "sender": "it.support@fischer.com",
+        "subject": "IT Maintenance Scheduled for Tonight",
+        "timestamp": "2024-12-10 17:00",
+        "content": "<p>Hi Team,<br><br> Please be advised that IT maintenance is scheduled for tonight from 8 PM to 12 AM. During this time:</p> <ul><li>Access to the shared drive will be unavailable.</li><li>Financial software systems will experience intermittent downtimes.</li><li>Email access may be temporarily disrupted.</li></ul> <p>We recommend saving your work and logging off before maintenance begins. If you encounter any issues post-maintenance, please contact IT Support at <a href='mailto:support@fischer-partner.com'>support@fischer-partner.com</a>.</p> <p>Thank you for your understanding.<br><br> IT Support Team<br> Financial Controlling, Fischer & Partner GmbH</p>",
+        "phishing": "No"
+    },
+    {
+        "id": 7,
         "sender": "itsupport@fischer-partner.com",
         "subject": "Password change required - security update",
         "timestamp": "2024-12-10 09:30",
@@ -32,28 +56,12 @@
         "phishing": "Yes"
     },
     {
-        "id": 5,
+        "id": 8,
         "sender": "jens.ritter@fischer.com",
         "subject": "Urgent payment order - Confidential",
         "timestamp": "2024-11-21 16:15",
         "content": "<p>Hello Jonas, <br> I hope you are well. We have a confidential project that needs to be completed urgently and I am relying on your discretion. Please transfer the sum of EUR 8,750 to the following business partner: </p> <p> Recipient: M. Krause Consulting GmbH<br> IBAN: DE89370400440532013000<br> Bank: Sparkasse München</p> <p> This is extremely time-critical, so I need confirmation of the transfer by 14:00 today. Please contact me directly if you have any questions. Confidentiality is crucial here. Please do not discuss this with other colleagues. </p> <p> Many thanks in advance. <br> Jens Ritter<br> Managing Director</p> ",
         "phishing": "Yes"
-    },
-    {
-        "id": 6,
-        "sender": "maximilian.weber@controlling-solutions.com",
-        "subject": "Invitation to the exclusive webinar: ‘Efficient Controlling 2024’",
-        "timestamp": "2024-12-10 12:30",
-        "content": "<p>Hello Mr Müller,<br> We have seen that you work as a controller at Fischer & Partner GmbH and would like to invite you to our free webinar ‘Efficient Controlling 2024’. Here you will learn innovative methods on how to further optimise your processes.</p> <p><strong>Date:</strong> 19 December 2024<br><strong>Time:</strong> 14:00</p> <p>Please register by 14 December 2024 at the latest via the following link:</p> <p><a href='#'>Register here</a></p> <p>You will also receive our exclusive e-book ‘Successful Controlling in Practice’ when you register.</p> <p>We look forward to your participation!<br> Best regards,<br> Maximilian Weber<br> Marketing Team<br> Controlling Solutions AG</p>",
-        "phishing": "Yes"
-    },
-    {
-        "id": 11,
-        "sender": "stefanie.berger@fischer-partner.com",
-        "subject": "Important update: New privacy policy",
-        "timestamp": "2024-12-10 13:00",
-        "content": "<p>Dear Mr Müller,<br><br> We would like to inform you that Fischer & Partner GmbH has updated our privacy policy to comply with new legal requirements.</p> <p>Please take a moment to review the changes and confirm your consent. This step is required to keep your account active.</p> <p>Click on the link below to view the new policy and give your consent:</p> <p><a href='https://data-protection-update.fischer-partner-secure.com'>Click here to review the privacy policy</a></p> <p>Please note that you must give your consent by 5 December 2024 to avoid any disruption in your access to our services.</p> <p>Thank you for your prompt assistance!<br><br> Yours sincerely,<br> Stefanie Berger<br> Customer Support<br> Fischer & Partner GmbH</p>",
-        "phishing": "Yes"    
     },
     {
         "id": 9,
@@ -64,7 +72,47 @@
         "phishing": "Yes"
     },
     {
+        "id": 10,
+        "sender": "stefan.meier@fischer.com",
+        "subject": "Follow-Up: Missing Invoice Details",
+        "timestamp": "2024-12-10 15:00",
+        "content": "<p>Hi Jonas,<br><br> I hope this email finds you well!<br><br> We noticed some discrepancies in the invoice you submitted for Project Alpha. Specifically:</p> <ul><li>Missing invoice numbers on pages 3 and 4.</li><li>The client contact name is not listed.</li><li>There’s no reference to the service period covered.</li></ul> <p>Could you provide these details as soon as possible? This information is essential for completing our records and ensuring timely processing. Let me know if you need clarification on any of the points.</p> <p>Thanks for your attention to this matter!<br><br> Stefan Meier<br> Accounts Payable Specialist<br> Financial Controlling, Fischer & Partner GmbH</p>",
+        "phishing": "No"
+    },
+    {
         "id": 11,
+        "sender": "maximilian.weber@controlling-solutions.com",
+        "subject": "Invitation to the exclusive webinar: ‘Efficient Controlling 2024’",
+        "timestamp": "2024-12-10 12:30",
+        "content": "<p>Hello Mr Müller,<br> We have seen that you work as a controller at Fischer & Partner GmbH and would like to invite you to our free webinar ‘Efficient Controlling 2024’. Here you will learn innovative methods on how to further optimise your processes.</p> <p><strong>Date:</strong> 19 December 2024<br><strong>Time:</strong> 14:00</p> <p>Please register by 14 December 2024 at the latest via the following link:</p> <p><a href='#'>Register here</a></p> <p>You will also receive our exclusive e-book ‘Successful Controlling in Practice’ when you register.</p> <p>We look forward to your participation!<br> Best regards,<br> Maximilian Weber<br> Marketing Team<br> Controlling Solutions AG</p>",
+        "phishing": "Yes"
+    },
+    {
+        "id": 12,
+        "sender": "laura.steiner@fischer.com",
+        "subject": "Sales reports Q3 - Please check",
+        "timestamp": "2024-12-10 11:15",
+        "content": "<p>Dear Mr Müller,<br> Please find enclosed the requested sales reports for the third quarter. The documents are available as PDF files and contain detailed figures for the departments and cost centres.</p> <p>Please check the documents and give us feedback if there are any uncertainties. If you require additional analyses, please let us know.</p> <p>You can find the reports here:</p> <p>F:/shared/report</p> <p>Thank you very much for your support!<br> Yours sincerely,<br> Laura Steiner<br> Senior Analyst<br> Financial Controlling, Fischer & Partner GmbH</p>",
+        "phishing": "No"
+    },
+    {
+        "id": 13,
+        "sender": "lisa.wagner@fischer.com",
+        "subject": "Monthly Performance Metrics Meeting",
+        "timestamp": "2024-12-10 14:30",
+        "content": "<p>Hi Team,<br><br> A reminder that the monthly performance metrics meeting is scheduled for Thursday at 10 AM in Conference Room B. Please ensure all relevant data is uploaded to the shared drive by Wednesday afternoon. Let me know if anyone has conflicts so we can reschedule accordingly.</p> <p>Looking forward to your input.<br><br> Lisa Wagner<br> Team Assistant<br> Financial Controlling, Fischer & Partner GmbH</p>",
+        "phishing": "No"
+    },
+    {
+        "id": 14,
+        "sender": "laura.steiner@fischer-partner.com",
+        "subject": "Feedback on your last enquiry - corrected documents",
+        "timestamp": "2024-12-10 12:00",
+        "content": "<p>Dear Mr Müller,<br> Thank you for your enquiry regarding the analysis of the Q3 sales reports. Unfortunately, there was a problem with the previously sent documents. Enclosed you will find the corrected documents in PDF format, which you should check urgently.</p> <p>We apologise for the inconvenience. Simply click on the link below to download the files securely:</p> <p><a href='https://secure-updates.com/reporting/SalesReports-Q3-updated.pdf'>https://secure-updates.com/reporting/SalesReports-Q3-updated.pdf</a></p> <p>Thank you for your patience and co-operation.<br> Yours sincerely,<br> Laura Steiner<br> Senior Analyst<br> Financial Controlling, Fischer & Partner GmbH</p>",
+        "phishing": "Yes"
+    },
+    {
+        "id": 15,
         "sender": "bank-alert@secure-onlinebanking.com",
         "subject": "Urgent: Your Account Is Compromised",
         "timestamp": "2024-11-19 12:45",
@@ -72,7 +120,15 @@
         "phishing": "Yes"
     },
     {
-        "id": 15,
+        "id": 16,
+        "sender": "david.schmidt@fischer.com",
+        "subject": "Lunch with the Team?",
+        "timestamp": "2024-12-10 16:00",
+        "content": "<p>Hi Jonas,<br><br> Are you free to grab lunch with the team today? We’re thinking of heading to that new Italian place around the corner. It’s supposed to have amazing pasta! Let me know if you’re in.</p> <p>Cheers,<br> David Schmidt<br> Controlling Specialist<br> Financial Controlling, Fischer & Partner GmbH</p>",
+        "phishing": "No"
+    },
+    {
+        "id": 17,
         "sender": "helpdesk@it-support.com",
         "subject": "Urgent: Email Quota Exceeded",
         "timestamp": "2024-11-18 10:45",
@@ -80,11 +136,27 @@
         "phishing": "Yes"
     },
     {
-        "id": 17,
-        "sender": "offer@crypto-investment.com",
-        "subject": "Exclusive Crypto Investment Opportunity!",
-        "timestamp": "2024-11-17 08:45",
-        "content": "Invest in the future of cryptocurrency with our exclusive offer. Earn up to 300% returns in just 7 days! <a href='https://crypto-investment-offer.com' target='_blank'>Start Now</a>.",
-        "phishing": "Yes"
+        "id": 18,
+        "sender": "sarah.becker@fischer.com",
+        "subject": "Request for Budget Report - Q4",
+        "timestamp": "2024-12-10 14:00",
+        "content": "<p>Hi Jonas,<br><br> Could you please provide the updated budget report for Q4 by the end of the day? I need it for the client presentation tomorrow morning. Let me know if you need any additional details.</p> <p>Thanks in advance!<br><br> Sarah Becker<br> Senior Analyst<br> Financial Controlling, Fischer & Partner GmbH</p>",
+        "phishing": "No"
+    },
+    {
+        "id": 19,
+        "sender": "stefanie.berger@fischer-partner.com",
+        "subject": "Important update: New privacy policy",
+        "timestamp": "2024-12-10 13:00",
+        "content": "<p>Dear Mr Müller,<br><br> We would like to inform you that Fischer & Partner GmbH has updated our privacy policy to comply with new legal requirements.</p> <p>Please take a moment to review the changes and confirm your consent. This step is required to keep your account active.</p> <p>Click on the link below to view the new policy and give your consent:</p> <p><a href='https://data-protection-update.fischer-partner-secure.com'>Click here to review the privacy policy</a></p> <p>Please note that you must give your consent by 5 December 2024 to avoid any disruption in your access to our services.</p> <p>Thank you for your prompt assistance!<br><br> Yours sincerely,<br> Stefanie Berger<br> Customer Support<br> Fischer & Partner GmbH</p>",
+        "phishing": "Yes"    
+    },
+    {
+        "id": 20,
+        "sender": "emma.müller@fischer.com",
+        "subject": "Weekly Update - Controlling Team",
+        "timestamp": "2024-12-10 18:30",
+        "content": "<p>Hi Team,<br><br> I hope everyone had a productive week!<br><br> As part of our regular workflow, please send me your weekly updates by Friday at 3 PM. The updates should include:</p> <ul><li>A summary of tasks completed this week.</li><li>Progress on ongoing projects (please highlight key milestones).</li><li>Any roadblocks or challenges you’re facing (and suggestions for overcoming them).</li></ul> <p>Remember to upload your updates to the shared folder titled Weekly Team Reports and notify me once they’re in. Let me know if you have any questions or if there’s anything you’d like to discuss during our next team meeting.</p> <p>Thank you for your hard work and dedication.<br><br> Emma Müller<br> Team Lead<br> Financial Controlling, Fischer & Partner GmbH</p>",
+        "phishing": "No"
     }
 ]
