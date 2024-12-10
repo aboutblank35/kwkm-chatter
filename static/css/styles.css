@@ -16,6 +16,21 @@ header {
     padding: 10px 20px;
 }
 
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#menu-toggle-button {
+    display: none;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
 header .logo {
     display: flex;
     align-items: center;
@@ -48,6 +63,7 @@ header .user-profile i {
     padding: 20px 0;
     width: 350px;
     overflow-y: auto;
+    transition: transform 0.3s ease;
 }
 
 .sidebar h2 {
@@ -271,27 +287,76 @@ header .user-profile i {
     border-radius: 4px;
 }
 
+.email-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.email-buttons .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.email-buttons .btn-real {
+    background-color: #28a745; /* Grün */
+    color: white;
+}
+
+.email-buttons .btn-real:hover {
+    background-color: #218838;
+}
+
+.email-buttons .btn-fake {
+    background-color: #dc3545; /* Rot */
+    color: white;
+}
+
+.email-buttons .btn-fake:hover {
+    background-color: #c82333;
+}
+
 /* Responsives Design */
 @media (max-width: 768px) {
+    #menu-toggle-button {
+        display: block;
+    }
+
     .sidebar {
         width: 100%;
-        position: absolute;
-        z-index: 1;
-        height: 100%;
-        display: none;
+        position: fixed;
+        left: 0;
+        top: 60px;
+        bottom: 0;
+        background-color: #f5f7fa;
+        transform: translateX(-100%);
+        z-index: 10;
     }
 
     .sidebar.active {
-        display: block;
+        transform: translateX(0);
     }
 
     .app-container {
         flex-direction: column;
+        position: relative;
     }
 
     #chat-toggle-button {
         position: fixed;
         bottom: 0;
         width: 100%;
+        left: 0;
+    }
+
+    /* Der main-Bereich sollte unter die Sidebar rutschen, sobald diese aktiv ist */
+    .main {
+        flex: 1;
+        margin-top: 60px;
     }
 }

@@ -17,9 +17,12 @@
 <body>
     <!-- Kopfzeile -->
     <header>
-        <div class="logo">
-            <i class="fas fa-envelope"></i>
-            <h1>trust Mail</h1>
+        <div class="header-left">
+            <button id="menu-toggle-button"><i class="fas fa-bars"></i></button>
+            <div class="logo">
+                <i class="fas fa-envelope"></i>
+                <h1>trust Mail</h1>
+            </div>
         </div>
         <div class="user-profile">
             <i class="fas fa-user-circle"></i>
@@ -27,7 +30,7 @@
     </header>
 
     <div class="app-container">
-        <!-- E-Mail-Liste (linke Spalte) -->
+        <!-- Linke Spalte: E-Mail-Liste -->
         <div class="sidebar">
             <h2><i class="fas fa-inbox"></i> Inbox</h2>
             <ul id="email-list">
@@ -35,8 +38,9 @@
             </ul>
         </div>
 
-        <!-- Hauptbereich: E-Mail-Details und Chat -->
+        <!-- Hauptbereich: E-Mail-Details -->
         <div class="main">
+            <!-- Detailansicht der E-Mail -->
             <div id="email-detail">
                 <!-- Warnung mit gelbem Hintergrund -->
                 <div class="email-warning" id="email-warning" style="display: none;">
@@ -45,9 +49,15 @@
                 </div>
                 <h2>Open Mail</h2>
                 <p>Choose a Mail</p>
+
+                <!-- Buttons für Real und Fake -->
+                <div class="email-buttons" style="display: none;" id="email-buttons">
+                    <button class="btn btn-real"><i class="fas fa-check-circle"></i> Real</button>
+                    <button class="btn btn-fake"><i class="fas fa-times-circle"></i> Fake</button>
+                </div>
             </div>
 
-            <!-- Button zum Ein-/Ausklappen des Chats -->
+            <!-- Chatbot -->
             <button id="chat-toggle-button"><i class="fas fa-comments"></i> Show Chat</button>
             <div id="chat-container" class="collapsed">
                 <h3><i class="fas fa-robot"></i> Chatbot</h3>
@@ -60,12 +70,22 @@
         </div>
     </div>
 
-    <!-- JavaScript für Chat-Einklappen -->
+    <!-- JavaScript für Chat- und Sidebar-Einklappen -->
     <script>
+        // Chat Toggle
         document.getElementById('chat-toggle-button').addEventListener('click', function() {
             const chatContainer = document.getElementById('chat-container');
-            chatContainer.classList.toggle('collapsed');
-            this.innerHTML = chatContainer.classList.contains('collapsed') ? '<i class="fas fa-comments"></i> Show Chat' : '<i class="fas fa-comments"></i> Hide Chat';
+            const isCollapsed = chatContainer.classList.toggle('collapsed');
+            // Ändere das Label des Buttons
+            this.innerHTML = isCollapsed ? '<i class="fas fa-comments"></i> Show Chat' : '<i class="fas fa-comments"></i> Hide Chat';
+        });
+
+        // Sidebar Toggle für mobile Ansicht
+        const menuToggleButton = document.getElementById('menu-toggle-button');
+        const sidebar = document.querySelector('.sidebar');
+
+        menuToggleButton.addEventListener('click', () => {
+            sidebar.classList.toggle('active');
         });
     </script>
 </body>

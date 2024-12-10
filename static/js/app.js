@@ -1,5 +1,6 @@
 let warnings = []; // Variable für Warnungen
 
+// Warnungen laden
 async function loadWarnings() {
     try {
         const response = await fetch("/api/warnings");
@@ -10,6 +11,7 @@ async function loadWarnings() {
     }
 }
 
+// E-Mails laden und Liste aktualisieren
 async function loadEmails() {
     try {
         const emailResponse = await fetch("/api/emails");
@@ -37,6 +39,7 @@ async function loadEmails() {
     }
 }
 
+// Detailansicht der E-Mail anzeigen
 function showEmail(email) {
     const detailView = document.getElementById("email-detail");
 
@@ -53,9 +56,15 @@ function showEmail(email) {
         <p><strong>Sent:</strong> ${new Date(email.timestamp).toLocaleString()}</p>
         <hr>
         <p>${email.content}</p>
+        <div class="email-buttons">
+            <button class="btn btn-real"><i class="fas fa-check-circle"></i> Real</button>
+            <button class="btn btn-fake"><i class="fas fa-times-circle"></i> Fake</button>
+        </div>
     `;
+    emailButtons.style.display = "flex";
 }
 
+// Chat-Funktion
 async function sendMessage() {
     const userInput = document.getElementById("user-input").value;
     if (!userInput) return;
@@ -111,6 +120,5 @@ async function sendMessage() {
     }
 }
 
-
-
+// Initiale Daten laden
 loadEmails();
