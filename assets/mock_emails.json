@@ -4,118 +4,87 @@
         "sender": "laura.steiner@fischer.com",
         "subject": "Sales reports Q3 - Please check",
         "timestamp": "2024-12-10 11:15",
-        "content": "<p>Dear Mr Müller,<br> Please find enclosed the requested sales reports for the third quarter. The documents are available as PDF files and contain detailed figures for the departments and cost centres.</p> <p>Please check the documents and give us feedback if there are any uncertainties. If you require additional analyses, please let us know.</p> <p>You can find the download link to the reports here:</p> <p><a href='https://fischer.de/intern/reporting/SalesReports-Q3.pdf'>https://fischer.de/intern/reporting/SalesReports-Q3.pdf</a></p> <p>Thank you very much for your support!<br> Yours sincerely,<br> Laura Steiner<br> Senior Analyst<br> Financial Controlling, Fischer & Partner GmbH</p>"
+        "content": "<p>Dear Mr Müller,<br> Please find enclosed the requested sales reports for the third quarter. The documents are available as PDF files and contain detailed figures for the departments and cost centres.</p> <p>Please check the documents and give us feedback if there are any uncertainties. If you require additional analyses, please let us know.</p> <p>You can find the reports here:</p> <p>F:/shared/report</p> <p>Thank you very much for your support!<br> Yours sincerely,<br> Laura Steiner<br> Senior Analyst<br> Financial Controlling, Fischer & Partner GmbH</p>",
+        "phishing": "No"
     },
     {
         "id": 2,
         "sender": "laura.steiner@fischer-partner.com",
         "subject": "Feedback on your last enquiry - corrected documents",
         "timestamp": "2024-12-10 12:00",
-        "content": "<p>Dear Mr Müller,<br> Thank you for your enquiry regarding the analysis of the Q3 sales reports. Unfortunately, there was a problem with the previously sent documents. Enclosed you will find the corrected documents in PDF format, which you should check urgently.</p> <p>We apologise for the inconvenience. Simply click on the link below to download the files securely:</p> <p><a href='https://secure-updates.com/reporting/SalesReports-Q3-updated.pdf'>https://secure-updates.com/reporting/SalesReports-Q3-updated.pdf</a></p> <p>Thank you for your patience and co-operation.<br> Yours sincerely,<br> Laura Steiner<br> Senior Analyst<br> Financial Controlling, Fischer & Partner GmbH</p>"
+        "content": "<p>Dear Mr Müller,<br> Thank you for your enquiry regarding the analysis of the Q3 sales reports. Unfortunately, there was a problem with the previously sent documents. Enclosed you will find the corrected documents in PDF format, which you should check urgently.</p> <p>We apologise for the inconvenience. Simply click on the link below to download the files securely:</p> <p><a href='https://secure-updates.com/reporting/SalesReports-Q3-updated.pdf'>https://secure-updates.com/reporting/SalesReports-Q3-updated.pdf</a></p> <p>Thank you for your patience and co-operation.<br> Yours sincerely,<br> Laura Steiner<br> Senior Analyst<br> Financial Controlling, Fischer & Partner GmbH</p>",
+        "phishing": "Yes"
     },
     {
         "id": 3,
         "sender": "anna.meier@outlook.com",
         "subject": "Security check of your account required",
         "timestamp": "2024-12-10 10:00",
-        "content": "<p>Dear Mr Müller,<br> We have noticed that your Microsoft Outlook account is showing unusual activity. In order to protect your account from possible unauthorised access, we ask you to update your data.</p> <p>Please click on the following link to complete the verification:</p> <p><a href='https://reset-outlook1.com/ResetPassword'>Verify Now</a></p> <p>If you do not take action, your access to important files will be restricted.</p> <p>Thank you for your prompt response.<br> Yours sincerely,<br> Anna Meier<br> Customer Support Outlook</p>"
+        "content": "<p>Dear Mr Müller,<br> We have noticed that your Microsoft Outlook account is showing unusual activity. In order to protect your account from possible unauthorised access, we ask you to update your data.</p> <p>Please click on the following link to complete the verification:</p> <p><a href='https://microsoft-support-login.com/reset-password'>Verify Now</a></p> <p>If you do not take action, your access to important files will be restricted.</p> <p>Thank you for your prompt response.<br> Yours sincerely,<br> Anna Meier<br> Customer Support Outlook</p>",
+        "phishing": "Yes"
     },
     {
         "id": 4,
         "sender": "itsupport@fischer-partner.com",
         "subject": "Password change required - security update",
         "timestamp": "2024-12-10 09:30",
-        "content": "<p>Dear Mr Müller,<br> in order to ensure the security of your account with Fischer & Partner GmbH, a password change is required. Please click on the link below and follow the instructions to update your password.</p> <p><a href='https://reset-password745.com/resetpassword'>Click here to change your password</a></p> <p>Please note that your account will be restricted if the change is not made by 5 December 2024.</p> <p>Thank you for your help!<br> Yours sincerely,<br> IT Support Team<br> Fischer & Partner GmbH</p>"
+        "content": "<p>Dear Mr Müller,<br> in order to ensure the security of your account with Fischer & Partner GmbH, a password change is required. Please click on the link below and follow the instructions to update your password.</p> <p><a href='https://reset-password745.com/resetpassword'>Click here to change your password</a></p> <p>Please note that your account will be restricted if the change is not made by 5 December 2024.</p> <p>Thank you for your help!<br> Yours sincerely,<br> IT Support Team<br> Fischer & Partner GmbH</p>",
+        "phishing": "Yes"
     },
     {
         "id": 5,
         "sender": "jens.ritter@fischer.com",
         "subject": "Urgent payment order - Confidential",
         "timestamp": "2024-11-21 16:15",
-        "content": "<p>Hello Jonas, <br> I hope you are well. We have a confidential project that needs to be completed urgently and I am relying on your discretion. Please transfer the sum of EUR 8,750 to the following business partner: </p> <p> Recipient: M. Krause Consulting GmbH<br> IBAN: DE89370400440532013000<br> Bank: Sparkasse München</p> <p> This is extremely time-critical, so I need confirmation of the transfer by 14:00 today. Please contact me directly if you have any questions. Confidentiality is crucial here. Please do not discuss this with other colleagues. </p> <p> Many thanks in advance. <br> Jens Ritter<br> Managing Director</p> "
+        "content": "<p>Hello Jonas, <br> I hope you are well. We have a confidential project that needs to be completed urgently and I am relying on your discretion. Please transfer the sum of EUR 8,750 to the following business partner: </p> <p> Recipient: M. Krause Consulting GmbH<br> IBAN: DE89370400440532013000<br> Bank: Sparkasse München</p> <p> This is extremely time-critical, so I need confirmation of the transfer by 14:00 today. Please contact me directly if you have any questions. Confidentiality is crucial here. Please do not discuss this with other colleagues. </p> <p> Many thanks in advance. <br> Jens Ritter<br> Managing Director</p> ",
+        "phishing": "Yes"
     },
     {
         "id": 6,
-        "sender": "security-alert@paypal-secure.com",
-        "subject": "Unusual Activity Detected in Your PayPal Account",
-        "timestamp": "2024-11-20 09:15",
-        "content": "Dear User, we noticed unusual activity in your PayPal account. Please verify your identity immediately to avoid account suspension. <a href='https://secure-paypal-login.com' target='_blank'>Click here to verify</a>."
+        "sender": "maximilian.weber@controlling-solutions.com",
+        "subject": "Invitation to the exclusive webinar: ‘Efficient Controlling 2024’",
+        "timestamp": "2024-12-10 12:30",
+        "content": "<p>Hello Mr Müller,<br> We have seen that you work as a controller at Fischer & Partner GmbH and would like to invite you to our free webinar ‘Efficient Controlling 2024’. Here you will learn innovative methods on how to further optimise your processes.</p> <p><strong>Date:</strong> 19 December 2024<br><strong>Time:</strong> 14:00</p> <p>Please register by 14 December 2024 at the latest via the following link:</p> <p><a href='#'>Register here</a></p> <p>You will also receive our exclusive e-book ‘Successful Controlling in Practice’ when you register.</p> <p>We look forward to your participation!<br> Best regards,<br> Maximilian Weber<br> Marketing Team<br> Controlling Solutions AG</p>",
+        "phishing": "Yes"
     },
     {
-        "id": 7,
-        "sender": "microsoft-support@secure.com",
-        "subject": "Your Microsoft Account Will Be Locked",
-        "timestamp": "2024-11-20 08:30",
-        "content": "We detected several failed login attempts to your Microsoft account. Verify your account now to prevent it from being locked. <a href='https://microsoft-support-login.com' target='_blank'>Verify Now</a>."
-    },
-    {
-        "id": 8,
-        "sender": "lottery@winning-notice.com",
-        "subject": "Congratulations! You've Won $1,000,000!",
-        "timestamp": "2024-11-19 22:00",
-        "content": "Congratulashun! You are the lucky winner of our $1,000,000 lottery prize. To claim your reward, please provide your bank account details and a copy of your ID. <a href='https://claim-prize-now.com' target='_blank'>Claim Now</a>."
+        "id": 11,
+        "sender": "stefanie.berger@fischer-partner.com",
+        "subject": "Important update: New privacy policy",
+        "timestamp": "2024-12-10 13:00",
+        "content": "<p>Dear Mr Müller,<br><br> We would like to inform you that Fischer & Partner GmbH has updated our privacy policy to comply with new legal requirements.</p> <p>Please take a moment to review the changes and confirm your consent. This step is required to keep your account active.</p> <p>Click on the link below to view the new policy and give your consent:</p> <p><a href='https://data-protection-update.fischer-partner-secure.com'>Click here to review the privacy policy</a></p> <p>Please note that you must give your consent by 5 December 2024 to avoid any disruption in your access to our services.</p> <p>Thank you for your prompt assistance!<br><br> Yours sincerely,<br> Stefanie Berger<br> Customer Support<br> Fischer & Partner GmbH</p>",
+        "phishing": "Yes"    
     },
     {
         "id": 9,
         "sender": "noreply@amazon-secure.com",
         "subject": "Your Amazon Account Has Been Suspended",
         "timestamp": "2024-11-19 18:45",
-        "content": "Dear Customer, your Amazon account has been temporarily suspended due to suspicious activity. Please log in to verify your account details. <a href='https://secure-amazon-login.com' target='_blank'>Verify Account</a>."
-    },
-    {
-        "id": 10,
-        "sender": "hr@yourcompany-support.com",
-        "subject": "Mandatory Password Update Required",
-        "timestamp": "2024-11-19 14:15",
-        "content": "Attention! As part of our regular security protocol, all employees are required to update their passwords immediately. <a href='https://company-password-update.com' target='_blank'>Update Password</a>."
+        "content": "Dear Customer, your Amazon account has been temporarily suspended due to suspicious activity. Please log in to verify your account details. <a href='https://secure-amazon-login.com' target='_blank'>Verify Account</a>.",
+        "phishing": "Yes"
     },
     {
         "id": 11,
         "sender": "bank-alert@secure-onlinebanking.com",
         "subject": "Urgent: Your Account Is Compromised",
         "timestamp": "2024-11-19 12:45",
-        "content": "Dear Customer, we detected unauthorized access to your online banking account. Please confirm your identity to secure your account. <a href='https://secure-onlinebanking-login.com' target='_blank'>Secure Account</a>."
-    },
-    {
-        "id": 12,
-        "sender": "support@it-admin.com",
-        "subject": "Important: Company Email Verification",
-        "timestamp": "2024-11-19 11:30",
-        "content": "IT Admin requires you to verify your email for ongoing system updates. Failure to verify may result in loss of access. <a href='https://it-admin-email-verification.com' target='_blank'>Verify Email</a>."
-    },
-    {
-        "id": 13,
-        "sender": "giveaway@freegiftcards.com",
-        "subject": "You’ve Been Selected for a Free Gift Card!",
-        "timestamp": "2024-11-18 20:15",
-        "content": "Congratulations! You’ve been selected to receive a free $500 gift card. Just click below to claim your reward! <a href='https://free-giftcards-now.com' target='_blank'>Claim Gift Card</a>."
-    },
-    {
-        "id": 14,
-        "sender": "admin@webhost-support.com",
-        "subject": "Your Website Hosting Will Be Suspended",
-        "timestamp": "2024-11-18 18:00",
-        "content": "Dear Customer, your web hosting plan is overdue for renewal. Renew now to avoid service disruption. <a href='https://webhost-renewal.com' target='_blank'>Renew Now</a>."
+        "content": "Dear Customer, we detected unauthorized access to your online banking account. Please confirm your identity to secure your account. <a href='https://secure-onlinebanking-login.com' target='_blank'>Secure Account</a>.",
+        "phishing": "Yes"
     },
     {
         "id": 15,
         "sender": "helpdesk@it-support.com",
         "subject": "Urgent: Email Quota Exceeded",
         "timestamp": "2024-11-18 10:45",
-        "content": "Your email account has exceeded its quota limit. Please increase your storage by verifying your account now. <a href='https://email-quota-upgrade.com' target='_blank'>Increase Quota</a>."
-    },
-    {
-        "id": 16,
-        "sender": "verify@account-security.com",
-        "subject": "Action Required: Confirm Your Identity",
-        "timestamp": "2024-11-17 22:10",
-        "content": "Dear User, we noticed irregularities in your account. Confirm your identity to restore access. <a href='https://account-security-verify.com' target='_blank'>Confirm Identity</a>."
+        "content": "Your email account has exceeded its quota limit. Please increase your storage by verifying your account now. <a href='https://email-quota-upgrade.com' target='_blank'>Increase Quota</a>.",
+        "phishing": "Yes"
     },
     {
         "id": 17,
         "sender": "offer@crypto-investment.com",
         "subject": "Exclusive Crypto Investment Opportunity!",
         "timestamp": "2024-11-17 08:45",
-        "content": "Invest in the future of cryptocurrency with our exclusive offer. Earn up to 300% returns in just 7 days! <a href='https://crypto-investment-offer.com' target='_blank'>Start Now</a>."
+        "content": "Invest in the future of cryptocurrency with our exclusive offer. Earn up to 300% returns in just 7 days! <a href='https://crypto-investment-offer.com' target='_blank'>Start Now</a>.",
+        "phishing": "Yes"
     }
 ]
