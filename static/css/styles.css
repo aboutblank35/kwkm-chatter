@@ -50,18 +50,75 @@ header .user-profile i {
     font-size: 1.5em;
 }
 
+.test-switch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+}
+
+.toggle-switch input {
+    display: none;
+}
+
+.toggle-switch .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 25px;
+}
+
+.toggle-switch .slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+.toggle-switch input:checked + .slider {
+    background-color: #007bff;
+}
+
+.toggle-switch input:checked + .slider:before {
+    transform: translateX(25px);
+}
+
+#variant-label {
+    font-size: 1em;
+    color: white;
+}
+
+/* App Container */
 .app-container {
     display: flex;
     width: 100%;
     height: calc(100% - 60px); /* Höhe abzüglich der Kopfzeile */
 }
 
-/* Linke Spalte: E-Mail-Liste */
+/* Sidebar mit fester Breite */
 .sidebar {
     background-color: #f5f7fa;
     border-right: 1px solid #d1d1d1;
     padding: 20px 0;
     width: 350px;
+    min-width: 350px;
+    max-width: 350px;
     overflow-y: auto;
     transition: transform 0.3s ease;
 }
@@ -123,7 +180,7 @@ header .user-profile i {
     text-overflow: ellipsis;
 }
 
-/* Hauptbereich: E-Mail-Details und Chat */
+/* Hauptbereich */
 .main {
     flex-grow: 1;
     display: flex;
@@ -151,11 +208,10 @@ header .user-profile i {
     color: #333;
 }
 
-/* Warnung mit gelbem Hintergrund */
 .email-warning {
-    background-color: #fff3cd;
-    color: #856404;
-    border: 1px solid #ffeeba;
+    background-color: #fff3cd; /* Gelber Hintergrund */
+    color: #856404; /* Dunkler Text */
+    border: 1px solid #ffeeba; /* Gelber Rahmen */
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 5px;
@@ -168,7 +224,8 @@ header .user-profile i {
     margin-right: 10px;
 }
 
-/* Button zum Ein-/Ausklappen des Chats */
+
+/* Chat Toggle Button */
 #chat-toggle-button {
     padding: 15px;
     background: #0072c6;
@@ -179,6 +236,7 @@ header .user-profile i {
     text-align: left;
     display: flex;
     align-items: center;
+    transition: background-color 0.3s ease;
 }
 
 #chat-toggle-button i {
@@ -193,7 +251,7 @@ header .user-profile i {
 #chat-container {
     border-top: 1px solid #d1d1d1;
     padding: 15px;
-    background: #f5f7fa;
+    background: #eef5fb;
     display: flex;
     flex-direction: column;
     max-height: 300px;
@@ -267,96 +325,4 @@ header .user-profile i {
 
 #input-container button:hover {
     background: #005a9e;
-}
-
-#input-container button i {
-    font-size: 1em;
-}
-
-/* Scrollbar-Styling */
-.sidebar::-webkit-scrollbar,
-#email-detail::-webkit-scrollbar,
-#messages::-webkit-scrollbar {
-    width: 8px;
-}
-
-.sidebar::-webkit-scrollbar-thumb,
-#email-detail::-webkit-scrollbar-thumb,
-#messages::-webkit-scrollbar-thumb {
-    background-color: #ccc;
-    border-radius: 4px;
-}
-
-.email-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 20px;
-}
-
-.email-buttons .btn {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.email-buttons .btn-real {
-    background-color: #28a745; /* Grün */
-    color: white;
-}
-
-.email-buttons .btn-real:hover {
-    background-color: #218838;
-}
-
-.email-buttons .btn-fake {
-    background-color: #dc3545; /* Rot */
-    color: white;
-}
-
-.email-buttons .btn-fake:hover {
-    background-color: #c82333;
-}
-
-/* Responsives Design */
-@media (max-width: 768px) {
-    #menu-toggle-button {
-        display: block;
-    }
-
-    .sidebar {
-        width: 100%;
-        position: fixed;
-        left: 0;
-        top: 60px;
-        bottom: 0;
-        background-color: #f5f7fa;
-        transform: translateX(-100%);
-        z-index: 10;
-    }
-
-    .sidebar.active {
-        transform: translateX(0);
-    }
-
-    .app-container {
-        flex-direction: column;
-        position: relative;
-    }
-
-    #chat-toggle-button {
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        left: 0;
-    }
-
-    /* Der main-Bereich sollte unter die Sidebar rutschen, sobald diese aktiv ist */
-    .main {
-        flex: 1;
-        margin-top: 60px;
-    }
 }
