@@ -277,9 +277,10 @@ header .user-profile i {
 }
 
 #messages {
-    flex-grow: 1;
+    height: 200px;
+
     overflow-y: auto;
-    margin-bottom: 15px;
+
     padding: 15px;
     background: #fff;
     border: 1px solid #d1d1d1;

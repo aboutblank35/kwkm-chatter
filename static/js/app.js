@@ -44,7 +44,7 @@ function showEmail(email) {
 
     detailView.innerHTML = `
         ${emailWarning ? `
-        <div class="email-warning" style="display: ${document.getElementById("variant-toggle").checked ? "block" : "none"};">
+        <div class="email-warning" style="display: ${!document.getElementById("variant-toggle").checked ? "block" : "none"};">
             <p>${emailWarning.text}</p>
         </div>` : ''}
         <h2>${email.subject}</h2>
@@ -110,24 +110,29 @@ document.addEventListener("DOMContentLoaded", () => {
     const chatContainer = document.getElementById("chat-container");
     const chatToggleButton = document.getElementById("chat-toggle-button");
     const emailDetail = document.getElementById("email-detail");
+    const topBox = document.getElementById("top-box");
 
-const updateUI = (isVariantB) => {
-    const chatContainer = document.getElementById("chat-container");
-    const chatToggleButton = document.getElementById("chat-toggle-button");
-    const emailDetail = document.getElementById("email-detail");
-    const warnings = emailDetail.querySelectorAll(".email-warning");
-
-    if (isVariantB) {
-        chatContainer.style.display = "block";
-        chatToggleButton.style.display = "block";
-        warnings.forEach(warning => warning.style.display = "block");
-    } else {
-        chatContainer.style.display = "none";
-        chatToggleButton.style.display = "none";
-        warnings.forEach(warning => warning.style.display = "none");
-    }
-    label.textContent = isVariantB ? "Variante B" : "Variante A";
-};
+    const updateUI = (isVariantB) => {
+        const chatContainer = document.getElementById("chat-container");
+        const chatToggleButton = document.getElementById("chat-toggle-button");
+        const emailDetail = document.getElementById("email-detail");
+        const warnings = emailDetail.querySelectorAll(".email-warning");
+        const topBox = document.getElementById("top-box");
+    
+        if (!isVariantB) { 
+            chatContainer.style.display = "block";
+            chatToggleButton.style.display = "block";
+            warnings.forEach(warning => warning.style.display = "block");
+            topBox.classList.remove("hidden"); 
+        } else { 
+            chatContainer.style.display = "none";
+            chatToggleButton.style.display = "none";
+            warnings.forEach(warning => warning.style.display = "none");
+            topBox.classList.add("hidden"); 
+        }
+        
+        label.textContent = isVariantB ? "Variante B" : "Variante A";
+    };
 
 
     toggle.addEventListener("change", () => {
